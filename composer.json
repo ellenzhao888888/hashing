@@ -7,15 +7,11 @@
         "hyperf",
         "hashing"
     ],
-    "description": "The Hyperf Hashing package.",
+    "description": "The Hyperf 3 Hashing package.\n fork from hyperf-ext/hashing",
     "authors": [
         {
-            "name": "Eric Zhu",
-            "email": "eric@zhu.email"
-        },
-        {
-            "name": "Taylor Otwell",
-            "email": "taylor@laravel.com"
+            "name": "tokio",
+            "email": "ellenzhao888888@gmail.com"
         }
     ],
     "autoload": {
@@ -29,16 +25,16 @@
         }
     },
     "require": {
-        "php": ">=7.3",
-        "hyperf/config": "^2.1",
-        "hyperf/di": "^2.1",
-        "hyperf/framework": "^2.1"
+        "php": ">=8.0",
+        "hyperf/config": "~3.1.0",
+        "hyperf/di": "^3.1",
+        "hyperf/framework": "~3.1.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.0",
-        "hyperf/testing": "^2.1",
-        "phpstan/phpstan": "^0.12",
-        "swoole/ide-helper": "dev-master"
+        "hyperf/testing": "~3.1.0",
+        "phpstan/phpstan": "^1.0",
+        "swoole/ide-helper": "^5.0"
     },
     "config": {
         "sort-packages": true
