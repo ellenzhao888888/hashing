@@ -2,12 +2,13 @@
 
 该组件为存储用户密码提供了安全的 Bcrypt 和 Argon2 哈希加密方式。
 
+> fork自 [hyperf-ext/hashing](https://github.com/hyperf-ext/hashing )。
 > 移植自 [illuminate/hashing](https://github.com/illuminate/hashing )。
 
 ## 安装
 
 ```shell script
-composer require hyperf-ext/hashing
+composer require hyperf3-ext/hashing
 ```
 
 ## 发布配置
