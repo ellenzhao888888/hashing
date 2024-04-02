@@ -1,5 +1,5 @@
 {
-    "name": "hyperf3-ext/hashing",
+    "name": "tokio/hyperf3-hashing",
     "type": "library",
     "license": "MIT",
     "keywords": [

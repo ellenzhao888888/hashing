@@ -8,7 +8,7 @@
 ## 安装
 
 ```shell script
-composer require hyperf3-ext/hashing
+composer require tokio/hyperf3-hashing
 ```
 
 ## 发布配置
