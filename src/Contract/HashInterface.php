@@ -8,14 +8,14 @@ declare(strict_types=1);
  * @contact  eric@zhu.email
  * @license  https://github.com/hyperf-ext/hashing/blob/master/LICENSE
  */
-namespace HyperfExt\Hashing\Contract;
+namespace Tokio\Hyperf3Hashing\Contract;
 
 interface HashInterface extends DriverInterface
 {
     /**
      * Get a driver instance.
      *
-     * @return \HyperfExt\Hashing\Contract\DriverInterface
+     * @return \Tokio\Hyperf3Hashing\Contract\DriverInterface
      */
     public function getDriver(?string $name = null): DriverInterface;
 }

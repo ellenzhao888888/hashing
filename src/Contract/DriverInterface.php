@@ -8,7 +8,7 @@ declare(strict_types=1);
  * @contact  eric@zhu.email
  * @license  https://github.com/hyperf-ext/hashing/blob/master/LICENSE
  */
-namespace HyperfExt\Hashing\Contract;
+namespace Tokio\Hyperf3Hashing\Contract;
 
 interface DriverInterface
 {

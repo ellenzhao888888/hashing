@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "HyperfExt\\Hashing\\": "src/"
+            "Tokio\\Hyperf3Hashing\\": "src/"
         }
     },
     "autoload-dev": {
@@ -46,7 +46,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "HyperfExt\\Hashing\\ConfigProvider"
+            "config": "Tokio\\Hyperf3Hashing\\ConfigProvider"
         }
     }
 }

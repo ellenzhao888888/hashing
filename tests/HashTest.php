@@ -10,9 +10,9 @@ declare(strict_types=1);
  */
 namespace HyperfTest;
 
-use HyperfExt\Hashing\Driver\Argon2IdDriver;
-use HyperfExt\Hashing\Driver\Argon2IDriver;
-use HyperfExt\Hashing\Driver\BcryptDriver;
+use Tokio\Hyperf3Hashing\Driver\Argon2IdDriver;
+use Tokio\Hyperf3Hashing\Driver\Argon2IDriver;
+use Tokio\Hyperf3Hashing\Driver\BcryptDriver;
 use PHPUnit\Framework\TestCase;
 use RuntimeException;
 
