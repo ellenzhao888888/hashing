@@ -14,7 +14,7 @@ composer require tokio/hyperf3-hashing
 ## 发布配置
 
 ```shell script
-php bin/hyperf.php vendor:publish hyperf-ext/hashing
+php bin/hyperf.php vendor:publish tokio/hyperf3-hashing
 ```
 
 > 配置文件位于 `config/autoload/hashing.php`。
